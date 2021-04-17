@@ -22,22 +22,26 @@ class FullpageWrapper extends React.Component {
         render={({ state, fullpageApi }) => {
           return (
             <div id="fullpage-wrapper">
-              <div className="section section1">
-                <h3>Section 1</h3>
+              {/* Section 1 */}
+              <div className="section" id="section1">
+                <h1>Section 1</h1>
+                <h2>Dolor quis Lorem aliqua tempor do excepteur laborum Lorem dolore anim cillum commodo fugiat occaecat.</h2>
               </div>
-              <div className="section">
+              {/* Section 2 */}
+              <div className="section" id="section2">
                 <div className="slide">
-                  <h3>Slide 2.1</h3>
+                  <h1>Slide 2.1</h1>
                 </div>
                 <div className="slide">
-                  <h3>Slide 2.2</h3>
+                  <h1>Slide 2.2</h1>
                 </div>
                 <div className="slide">
-                  <h3>Slide 2.3</h3>
+                  <h1>Slide 2.3</h1>
                 </div>
+              {/* Section 3 */}
               </div>
-              <div className="section">
-                <h3>Section 3</h3>
+              <div className="section" id="section3">
+                <h1>Section 3</h1>
                 <button onClick={() => fullpageApi.moveTo(1, 0)}>
                   Move top
                 </button>
