@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const SectionContainer = styled.div`
   text-align: center;
   font-family: "Montserrat";
-  background: url("../../Images/imgS1.jpg");
+  background: url(${(props) => props.img});
   background-position: center;
   background-size: cover;
 `
