@@ -1,12 +1,19 @@
 import React from "react";
-import { PrimaryText, SecondaryText, SectionContainer } from "./SectionElements";
+import {
+  PrimaryText,
+  SecondaryText,
+  TertiaryText,
+  SectionContainer,
+  CardInst,
+} from "./SectionElements";
 
-function Section({id, primaryText, secondaryText, img}) { 
-    return (
-      <SectionContainer className="section" img={img}>
-        <PrimaryText>{primaryText}</PrimaryText>
-        <SecondaryText>{secondaryText}</SecondaryText>
-      </SectionContainer>
+function Section({ id, primaryText, secondaryText, tertiaryText, img }) {
+  return (
+    <SectionContainer className="section" img={img}>
+      <PrimaryText>{primaryText}</PrimaryText>
+      <SecondaryText>{secondaryText}</SecondaryText>
+      <TertiaryText>{tertiaryText}</TertiaryText>
+    </SectionContainer>
   );
 }
 

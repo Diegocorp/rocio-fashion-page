@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const SectionContainer = styled.div`
   text-align: center;
@@ -6,16 +6,22 @@ export const SectionContainer = styled.div`
   background: url(${(props) => props.img});
   background-position: center;
   background-size: cover;
-`
+`;
 
 export const PrimaryText = styled.h1`
   font-size: 7em;
   color: #fff;
   font-weight: 700;
-`
+`;
 
 export const SecondaryText = styled.h2`
-  font-size: 1em;
+  font-size: 2em;
   color: #fff;
   font-weight: 700;
-`
+`;
+
+export const TertiaryText = styled.h2`
+  font-size: 2em;
+  color: #fff;
+  font-weight: 700;
+`;
